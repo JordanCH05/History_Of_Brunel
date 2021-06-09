@@ -10,10 +10,40 @@
 
 body {
     font-family: Roboto, Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
-header div {
-    background-color: #D6AD5B;
+/* heading and logo*/
+
+h1, h2 {
     font-family: 'Mate SC', serif;
 }
+
+#heading {
+    background-color: #D6AD5B;
+    letter-spacing: 4px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#logo {
+    float: left;
+    margin-left: 70px;
+}
+
+/* navigation */
+
+nav > a {
+    text-decoration: none;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li{
+    list-style-type: none;
+    margin-right: 70px;
+    display: inline;
+}
+
