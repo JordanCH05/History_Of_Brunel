@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 300;
 }
 
 header div {
     background-color: #D6AD5B;
+    font-family: 'Mate SC', serif;
 }
