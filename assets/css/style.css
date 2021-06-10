@@ -21,24 +21,30 @@ h1, h2 {
 
 #heading {
     background-color: #D6AD5B;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     width: 100%;
-    border: 1px solid black;
+    border: 2px solid black;
+    height: 80px;
 }
 
 #logo {
     float: left;
     margin-left: 70px;
+    height: 75px;
+}
+
+#logo img {
+    width: 70px;
+    border-radius: 50%;
+    margin: 2px;
+    border: 2px solid black;
 }
 
 /* navigation */
 
-nav > a {
-    text-decoration: none;
-}
-
 #menu {
     float: right;
+    line-height: 80px;
 }
 
 #menu li{
@@ -47,3 +53,17 @@ nav > a {
     display: inline;
 }
 
+#menu a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid black;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
