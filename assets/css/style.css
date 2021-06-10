@@ -82,7 +82,16 @@ h1, h2 {
     border-bottom: 1px solid black;
 }
 
-@media screen and (max-width: 950px) {
+/* hero image */
+
+#hero-image {
+    height: 950px;
+    width: 100%;
+    background: url("../images/ss_great_britain_crop.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
 
     #logo {
         margin-left: 35px;
@@ -94,6 +103,10 @@ h1, h2 {
 
     #menu a {
         font-size: 18px;
+    }
+
+    #hero-image {
+        height: 520px;
     }
 }
 
@@ -112,4 +125,9 @@ h1, h2 {
         font-size: 16px;
         letter-spacing: 0px;
     }
+
+    #hero-image {
+        height: 260px;
+    }
 }
+
