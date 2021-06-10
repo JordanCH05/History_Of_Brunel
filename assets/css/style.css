@@ -15,7 +15,7 @@ body {
 
 /* heading and logo*/
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Mate SC', serif;
 }
 
@@ -82,14 +82,35 @@ h1, h2 {
     border-bottom: 1px solid black;
 }
 
-/* hero image */
+/* hero image and text*/
 
 #hero-image {
-    height: 950px;
+    height: 60vh;
+    /* height: 880px */
     width: 100%;
     background: url("../images/ss_great_britain_crop.jpg") no-repeat center center;
     background-size: cover;
 }
+
+#hero-text {
+    color: white;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 860px;
+    height: 144px;
+    padding: 33px 75px 12px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto auto;
+    position: relative;
+    top: 40%;
+}
+
+#hero-text h1 {
+    font-size: 64px;
+}
+
+/* responsive design for screens 1024px width and below */
 
 @media screen and (max-width: 1024px) {
 
@@ -105,10 +126,12 @@ h1, h2 {
         font-size: 18px;
     }
 
-    #hero-image {
+    /* #hero-image {
         height: 520px;
-    }
+    } */
 }
+
+/* responsive design for screens 500px width and below */
 
 @media screen and (max-width: 500px) {
 
@@ -126,8 +149,8 @@ h1, h2 {
         letter-spacing: 0px;
     }
 
-    #hero-image {
-        height: 260px;
-    }
+    /* #hero-image {
+        height: 300px;
+    } */
 }
 
