@@ -113,6 +113,27 @@ h1, h2, h3 {
     font-size: 64px;
 }
 
+/* Who was Brunel Section */
+
+#who {
+    letter-spacing: 2px;
+    background-color: #c4c4c4;
+    width: 640px;
+    height: 160px;
+    padding: 32px 44px 25px;
+    border-radius: 17px;
+    text-align: center;
+    margin: auto auto;
+    position: relative;
+    top: 40px;
+    font-size: 18px;
+
+}
+
+#who h2 {
+    font-size: 48px;
+}
+
 /* responsive design for screens 1024px width and below */
 
 @media screen and (max-width: 1024px) {
