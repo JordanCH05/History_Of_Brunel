@@ -167,6 +167,19 @@ h1, h2, h3 {
     #hero-text h2 {
         font-size: 12px;
     }
+
+    #who {
+        letter-spacing: 0px;
+        width: 75%;
+        height: auto;
+        top: 16px;
+    
+        }
+
+    #who h2 {
+        letter-spacing: 2px;
+    }
+    
 }
 
 /* responsive design for screens 500px width and below */
@@ -203,6 +216,20 @@ h1, h2, h3 {
 
     #hero-text h2 {
         font-size: 12px;
+    }
+
+    #who {
+    letter-spacing: 0px;
+    width: 310px;
+    height: auto;
+    padding: 16px 5px 16px;
+    top: 16px;
+    font-size: 12px;
+
+    }
+
+    #who h2 {
+        font-size: 20px;
     }
 }
 
