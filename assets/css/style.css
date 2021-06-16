@@ -115,6 +115,11 @@ h1, h2, h3 {
 
 /* Who was Brunel Section */
 
+.section-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 #who {
     letter-spacing: 2px;
     background-color: #c4c4c4;
@@ -134,7 +139,33 @@ h1, h2, h3 {
     font-size: 48px;
 }
 
-/* responsive design for screens 1024px width and below */
+/* Video Section */
+
+#videos {
+    height: 160px;
+    float: right;
+    
+}
+
+#videos li {
+    display: inline;
+    list-style-type: none;
+}
+
+.left-video {
+    padding-top: 30px;
+    width: 40%;
+    text-align: center;
+}
+
+.right-video {
+    padding-top: 30px;
+    width: 40%;
+    text-align: center;
+}
+
+
+/* Responsive design for screens 1024px width and below */
 
 @media screen and (max-width: 1024px) {
 
