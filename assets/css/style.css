@@ -142,6 +142,8 @@ h1, h2, h3 {
 
 iframe {
     border-radius: 17px;
+    width: 440px;
+    height: 223px;
 }
 
 #videos {
@@ -213,6 +215,19 @@ iframe {
     #who h2 {
         letter-spacing: 2px;
     }
+
+    #videos {
+        display: grid;
+        height: 600px;
+    }
+
+    #left-video {
+        width: 100%;
+    }
+
+    #right-video {
+        width: 100%;
+    }
 }
 
 /* responsive design for screens 500px width and below */
@@ -262,6 +277,23 @@ iframe {
     
     #who h2 {
         font-size: 20px;
+    }
+
+    iframe {
+        width: 310px;
+        height: 157px;
+    }
+
+    #videos {
+        height: 352px;
+    }
+
+    #left-video {
+        padding-top: 15px;
+    }
+
+    #right-video {
+        padding-top: 15px;
     }
 }
 
