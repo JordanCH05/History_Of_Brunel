@@ -260,6 +260,28 @@ iframe {
     .youtube-video {
         width: 100%;
     }
+
+    #info_img_info {
+        display: grid;
+    }
+
+    #left-about {
+        width: 100%;
+        background-color: blue;
+        text-align: center;
+    }
+    
+    #right-about {
+        width: 100%;
+        background-color: red;
+        text-align: center;
+    }
+    
+    #brunel-img-container {
+        width: 100%;
+        background-color: purple;
+        text-align: center;
+    }
 }
 
 /* responsive design for screens 500px width and below */
