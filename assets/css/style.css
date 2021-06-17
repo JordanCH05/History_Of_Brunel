@@ -129,7 +129,6 @@ h1, h2, h3 {
     border-radius: 17px;
     text-align: center;
     margin: auto auto;
-    position: relative;
     top: 40px;
     font-size: 18px;
 
@@ -141,27 +140,31 @@ h1, h2, h3 {
 
 /* Video Section */
 
+iframe {
+    border-radius: 17px;
+}
+
 #videos {
-    height: 160px;
+    height: 300px;
+    width: 100%;
     float: right;
-    
+    background-color: purple;
+    display: flex;
+    justify-content: center;
 }
 
-#videos li {
-    display: inline;
-    list-style-type: none;
-}
-
-.left-video {
+#left-video {
     padding-top: 30px;
     width: 40%;
     text-align: center;
+    background-color: blue;
 }
 
-.right-video {
+#right-video {
     padding-top: 30px;
     width: 40%;
     text-align: center;
+    background-color: red;
 }
 
 
