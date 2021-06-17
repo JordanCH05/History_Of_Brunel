@@ -165,16 +165,41 @@ iframe {
 .info {
     letter-spacing: 2px;
     background-color: #c4c4c4;
-    width: 640px;
+    width: 80%;
     height: 160px;
+    padding: 32px 44px 25px;
+    margin: 30px auto;
+    border-radius: 17px;
+}
+
+#info_img_info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #left-about {
-    float: left
+    width: 33%;
+    background-color: blue;
+    text-align: left;
 }
 
 #right-about {
-    float: right;
+    width: 33%;
+    background-color: red;
+    text-align: right;
+}
+
+#brunel-image {
+    width: 33%;
+    background-color: purple;
+    text-align: center;
+}
+
+#brunel-image img {
+    width: 310px;
+    height: 632px;
+    border-radius: 32px;
 }
 
 /* Responsive design for screens 1024px width and below */
