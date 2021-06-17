@@ -150,25 +150,15 @@ iframe {
     height: 300px;
     width: 100%;
     float: right;
-    background-color: purple;
     display: flex;
     justify-content: center;
 }
 
-#left-video {
+.youtube-video {
     padding-top: 30px;
     width: 40%;
     text-align: center;
-    background-color: blue;
 }
-
-#right-video {
-    padding-top: 30px;
-    width: 40%;
-    text-align: center;
-    background-color: red;
-}
-
 
 /* Responsive design for screens 1024px width and below */
 
@@ -221,11 +211,7 @@ iframe {
         height: 600px;
     }
 
-    #left-video {
-        width: 100%;
-    }
-
-    #right-video {
+    .youtube-video {
         width: 100%;
     }
 }
@@ -288,12 +274,9 @@ iframe {
         height: 352px;
     }
 
-    #left-video {
+    .youtube-video {
         padding-top: 15px;
     }
 
-    #right-video {
-        padding-top: 15px;
-    }
 }
 
