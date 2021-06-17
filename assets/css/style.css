@@ -160,6 +160,23 @@ iframe {
     text-align: center;
 }
 
+/* Info and image of Brunel */
+
+.info {
+    letter-spacing: 2px;
+    background-color: #c4c4c4;
+    width: 640px;
+    height: 160px;
+}
+
+#left-about {
+    float: left
+}
+
+#right-about {
+    float: right;
+}
+
 /* Responsive design for screens 1024px width and below */
 
 @media screen and (max-width: 1024px) {
