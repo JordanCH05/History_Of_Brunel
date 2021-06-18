@@ -279,19 +279,16 @@ iframe {
 
     #left-about {
         width: 100%;
-        background-color: blue;
         text-align: center;
     }
     
     #right-about {
         width: 100%;
-        background-color: red;
         text-align: center;
     }
     
     #brunel-img-container {
         width: 100%;
-        background-color: purple;
         text-align: center;
     }
     
@@ -300,8 +297,6 @@ iframe {
         height: 310px;
         border-radius: 50%;
         background: url('../images/brunel.jpg') no-repeat center top;
-        background-size: cover;
-        margin: 0 auto;
     }
 }
 
@@ -374,6 +369,10 @@ iframe {
 
     .youtube-video {
         padding-top: 15px;
+    }
+
+    .info {
+        padding: 18px 30px 25px;
     }
 
 }
