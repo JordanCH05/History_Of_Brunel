@@ -23,7 +23,7 @@ h1, h2, h3 {
     background-color: #D6AD5B;
     letter-spacing: 2px;
     width: 100%;
-    border: 2px solid black;
+    border-bottom: 2px solid black;
     height: 80px;
 }
 
@@ -203,6 +203,16 @@ iframe {
     margin: 0 auto;
 }
 
+/* Footer */
+
+#footing {
+    background-color: #D6AD5B;
+    letter-spacing: 2px;
+    width: 100%;
+    border-top: 2px solid black;
+    height: 80px;
+}
+
 /* Responsive design for screens 1024px width and below */
 
 @media screen and (max-width: 1024px) {
@@ -293,7 +303,7 @@ iframe {
         width: 310px;
         height: 310px;
         border-radius: 50%;
-        background: url('../images/brunel.jpg') no-repeat center top;
+        background: url('../images/brunel.jpg') no-repeat center 10%;
     }
 }
 
