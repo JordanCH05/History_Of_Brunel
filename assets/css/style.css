@@ -181,19 +181,16 @@ iframe {
 
 #left-about {
     width: 33%;
-    background-color: blue;
     text-align: left;
 }
 
 #right-about {
     width: 33%;
-    background-color: red;
     text-align: right;
 }
 
 #brunel-img-container {
     width: 33%;
-    background-color: purple;
     text-align: center;
 }
 
