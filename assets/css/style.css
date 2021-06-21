@@ -213,6 +213,34 @@ iframe {
     height: 80px;
 }
 
+.social {
+    text-align: center;
+    height: 80px;
+}
+
+.social > li {
+    display: inline;
+}
+
+.social i {
+    font-size: 160%;
+    padding: 10px;
+    margin: 10px 5% 10px;
+    color: black;
+    text-align: center;
+}
+
+.fa-facebook:hover {
+    color: #2d88af;
+}
+
+.fa-twitter:hover {
+    color: #2DAAE2;
+}
+
+.fa-youtube:hover {
+    color: #FE3432;
+}
 /* Responsive design for screens 1024px width and below */
 
 @media screen and (max-width: 1024px) {
