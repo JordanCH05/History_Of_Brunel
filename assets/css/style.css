@@ -269,21 +269,11 @@ iframe {
 }
 
 .time-image {
-    background: url('../images/portsmouth_point.jpg') no-repeat center center;
-    background-size: cover;
-    width: 262px;
-    height: 87px;
-    padding: 32px 24px 25px;
-    margin: 76.5px auto;
+    width: 310px;
+    height: 144px;
+    margin: 78.5px auto;
     border-radius: 17px;
-}
-
-.time-image2 {
-    width: 262px;
-    height: 87px;
-    padding: 32px 24px 25px;
-    margin: 76.5px auto;
-    border-radius: 17px;
+    object-fit: cover;
 }
 
 .year {
