@@ -244,15 +244,7 @@ iframe {
 
 /* Timeline */
 
-.time-info {
-    letter-spacing: 2px;
-    background-color: #c4c4c4;
-    width: 310px;
-    height: 144px;
-    padding: 32px 44px 25px;
-    margin: 45px auto;
-    border-radius: 17px;
-}
+
 
 .img_year_info {
     width: 100%;
@@ -264,6 +256,26 @@ iframe {
 .timeline_box {
     width: 33%;
     text-align: center;
+}
+
+.time-info {
+    letter-spacing: 2px;
+    background-color: #c4c4c4;
+    width: 262px;
+    height: 87px;
+    padding: 32px 24px 25px;
+    margin: 76.5px auto;
+    border-radius: 17px;
+}
+
+.time-image {
+    background: url('../images/portsmouth_point.jpg') no-repeat center center;
+    background-size: cover;
+    width: 262px;
+    height: 87px;
+    padding: 32px 24px 25px;
+    margin: 76.5px auto;
+    border-radius: 17px;
 }
 
 .year {
