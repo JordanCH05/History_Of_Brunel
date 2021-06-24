@@ -317,11 +317,28 @@ iframe {
 #signup_box {
     background-color: rgba(0, 0, 0, .5);
     width: 30%;
-    height: 50%;
+    height: auto;
     position: absolute;
     top: 33%;
     left: 20%;
     color: white;
+    padding: 25px 50px 10px;
+    font-size: 24px;
+    font-family: 'Mate SC', serif;
+}
+
+#signup_box h2 {
+    font-size: 36px;
+}
+
+button {
+    background-color: #D6AD5B;
+    font-family: 'Mate SC', serif;
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 17px;
+    width: 164px;
 }
 
 @media screen and (max-width: 1480px) {
@@ -556,8 +573,8 @@ iframe {
 
     .time-text {
         font-size: 16px;
-        width: 310px;
-        height: 144px;
+        width: 262px;
+        height: 87px;
     }
 
 }
