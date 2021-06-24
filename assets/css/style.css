@@ -211,6 +211,8 @@ iframe {
     width: 100%;
     border-top: 2px solid black;
     height: 80px;
+    position: relative;
+    bottom: 0;
 }
 
 .social {
@@ -297,6 +299,29 @@ iframe {
 
 .year h2 {
     padding: 13px;
+}
+
+/* Signup */
+
+#signup_background {
+    background: url('../images/thamestunnel.jpg') no-repeat center center;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    /* z-index: -1;
+    position: fixed;
+    top: 0; */
+    
+}
+
+#signup_box {
+    background-color: rgba(0, 0, 0, .5);
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 33%;
+    left: 20%;
+    color: white;
 }
 
 /* Responsive design for screens 1024px width and below */
