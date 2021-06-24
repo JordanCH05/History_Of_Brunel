@@ -316,19 +316,29 @@ iframe {
 
 #signup_box {
     background-color: rgba(0, 0, 0, .5);
-    width: 30%;
+    width: auto;
     height: auto;
     position: absolute;
     top: 33%;
-    left: 20%;
+    right: 50%;
     color: white;
     padding: 25px 50px 10px;
     font-size: 24px;
     font-family: 'Mate SC', serif;
+    border-radius: 17px;
 }
 
 #signup_box h2 {
     font-size: 36px;
+}
+
+#signup_box input {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #c4c4c4;
+    font-size: 20px;
 }
 
 button {
