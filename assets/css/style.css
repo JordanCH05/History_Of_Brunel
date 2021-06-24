@@ -244,8 +244,6 @@ iframe {
 
 /* Timeline */
 
-
-
 .img_year_info {
     width: 100%;
     margin: 0 auto;
@@ -266,16 +264,25 @@ iframe {
 .time-info {
     letter-spacing: 2px;
     background-color: #c4c4c4;
-    width: 262px;
-    height: 87px;
+    width: 402px;
+    height: 153px;
     padding: 32px 24px 25px;
     margin: 76.5px auto;
     border-radius: 17px;
+    
+}
+
+.time-text {
+    width: 402px;
+    height: 153px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
 }
 
 .time-image {
-    width: 310px;
-    height: 144px;
+    width: 450px;
+    height: 210px;
     margin: 78.5px auto;
     border-radius: 17px;
     object-fit: cover;
@@ -383,6 +390,46 @@ iframe {
         height: 310px;
         border-radius: 50%;
         background: url('../images/brunel.jpg') no-repeat center 10%;
+    }
+
+    /* Timeline */
+
+    .img_year_info {
+        width: 100%;
+        margin: 10px auto;
+        display: grid;
+    }
+
+    .timeline_box {
+        width: 100%;
+    }
+
+    .timeline_year {
+        width: 100%;
+    }
+
+    .time-info {
+        letter-spacing: 2px;
+        width: 402px;
+        height: 153px;
+        padding: 32px 24px 25px;
+        margin: 29px auto;
+    }
+
+    .time-image {
+        width: 450px;
+        height: 210px;
+        margin: 25px auto;
+    }
+
+    .year {
+        width: 200px;
+        height: 56px;
+        margin: 10px auto;
+    }
+
+    .year h2 {
+        padding: 13px;
     }
 }
 
