@@ -86,7 +86,6 @@ h1, h2, h3 {
 
 #hero-image {
     height: 60vh;
-    /* height: 880px */
     width: 100%;
     background: url("../images/ss_great_britain_crop.jpg") no-repeat center center;
     background-size: cover;
