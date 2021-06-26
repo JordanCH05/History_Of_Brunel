@@ -308,10 +308,6 @@ iframe {
     height: 90vh;
     width: 100%;
     background-size: cover;
-    /* z-index: -1;
-    position: fixed;
-    top: 0; */
-    
 }
 
 #signup_box {
@@ -489,6 +485,16 @@ button {
 
     .year {
         margin: 10px auto;
+    }
+
+    /* Signup */   
+
+    #signup_box {
+        width: 500px;
+        position: relative;
+        top: 15%;
+        right: auto;
+        margin: 0 auto;
     }
 
     
