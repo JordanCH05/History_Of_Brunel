@@ -593,5 +593,26 @@ button {
         height: 87px;
     }
 
+    /* Signup */
+
+    #signup_background {
+        height: 80vh;
+    }
+
+    #signup_box {
+        width: 300px;
+        font-size: 18px;
+        padding: 15px 10px 5px;
+    }
+
+    #signup_box h2 {
+        font-size: 25px;
+    }
+
+    #signup_box input {
+        width: 250px;  
+        height: 33px;
+    }
+
 }
 
