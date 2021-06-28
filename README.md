@@ -83,3 +83,13 @@ This website has been created in order to provide information on the life and im
 * The logo was made using [Canva](canva.com)
 * The photos were taken from [Unsplash](https://unsplash.com/s/photos/brunel)
 * The images were taken from IKBrunel.org.uk as well as [Wikimedia](https://commons.wikimedia.org/w/index.php?search=brunel&title=Special:MediaSearch&go=Go&type=image)
+
+# 
+
+To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+
+python3 -m http.server
+
+A blue button should appear to click: Make Public,
+
+Another blue button should appear to click: Open Browser.

@@ -300,6 +300,10 @@ iframe {
     padding: 13px;
 }
 
+#statue {
+    object-position: 0% 5%;
+}
+
 /* Signup */
 
 #signup_background {
