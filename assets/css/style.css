@@ -189,7 +189,7 @@ iframe {
 }
 
 .center-about {
-    width: 33%;
+    width: 22%;
     text-align: center;
 }
 
@@ -351,6 +351,12 @@ button {
 }
 
 @media screen and (max-width: 1480px) {
+    
+    /* Info and image of Brunel */ 
+
+    .center-about {
+        width: 33%;
+    }
     
     /*Timeline*/
 
