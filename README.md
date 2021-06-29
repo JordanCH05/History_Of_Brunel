@@ -13,7 +13,7 @@ The live site can be viewed [here](https://jordanch05.github.io/History_Of_Brune
 
     * Simple colour scheme chosen 
     * Contrasting dark font colours used on light background and vice versa
-    * Matching header and footer colours
+    * Matching header and footer colours for consistency
 
 
 ![Colour Scheme](assets/images/colours-scheme.png)
@@ -21,9 +21,10 @@ The live site can be viewed [here](https://jordanch05.github.io/History_Of_Brune
 * Font
     * Fonts taken from [Google Fonts](https://fonts.google.com/)
     * Mate SC is used for the headings to give a more 19th Century atmosphere
-    * Roboto is used for smaller texts for easier legibility since it is simplier and with serifs
+    * Roboto is used for smaller texts for easier legibility since it is simplier and without serifs
 
 * Figma
+    * Pages were planned out on [Figma](https://www.figma.com) using wireframes
 
 ## Features
 * Navigation Bar
@@ -35,8 +36,8 @@ The live site can be viewed [here](https://jordanch05.github.io/History_Of_Brune
 ![Header of site](assets/images/header.png)
 
 * Hero Image
-    * Image of one of Brunel's greatest achievements the SS Great Britain
-    * Image includes text overlay to show users who this site is about with Brunel's full name and occupation
+    * Landing page image of one of Brunel's greatest achievements the SS Great Britain to catch the user's attention and pique their interest 
+    * Image includes text overlay to show users who this site is about with Brunel's full name and tagline to increase interest as well as show the user what this site is about
 
 ![Hero image of the site](assets/images/hero-image.png)
 
@@ -53,8 +54,12 @@ The live site can be viewed [here](https://jordanch05.github.io/History_Of_Brune
 ![Embedded Youtube Videos](assets/images/embedded-videos.png)
 
 * Info and Image Section
-    * This section provides information on Brunel's acheivements split into four main aspects, showing the user how diverse Brunel's work was, as well as who dangerous
+    * A clear layout so that the user can easily find information they are interested in
+    * This section provides information on Brunel's acheivements split into four main aspects, showing the user how diverse Brunel's work was, as well as how dangerous it was
     * This section also shows the user the significance of Brunel in the modern day by showing some of his legacy
+    * A photo of Brunel is displayed in the center to draw the users attention to this section and provide a clear image of the subject of this site 
+    * The image becomes a smaller circular image for smaller screens so as to not take up the entire screen when this section is displayed in a vertical layout
+    
 
 ![Info and Image Section](assets/images/info-and-image.png)
 
@@ -69,6 +74,8 @@ The live site can be viewed [here](https://jordanch05.github.io/History_Of_Brune
     * Provides a chronological list of all the significant moments and achievements in Brunel's life from his birth to his death
     * Includes supporting images of each event and the year they happened to give the user greater context of each event
     * This is useful to the user as it helps them identify Brunel's work and where they can be found and what they achieved
+    * Images are provided for each year depicting related events
+    * This timeline changes into a vertical layout for smaller screens as to provide am easier reading experience without the need to scroll sideways and prevents missed information
 
 ![Beginning of Timeline of Brunel's Life](assets/images/timeline.png)
 
@@ -83,9 +90,9 @@ The live site can be viewed [here](https://jordanch05.github.io/History_Of_Brune
 
 ## Features Left to Implement
 
-* Hamburger dropdown menu for smaller screens
+* Hamburger dropdown menu would be a good addition for easier navigation on smaller screens
 
-## Validator Testing
+## Testing
 
 * HTML
     * Tested using the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjordanch05.github.io%2FHistory_Of_Brunel%2Findex.html)
@@ -93,6 +100,11 @@ The live site can be viewed [here](https://jordanch05.github.io/History_Of_Brune
 * CSS
     * Tested using the official [Jigsaw W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjordanch05.github.io%2FHistory_Of_Brunel%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
     * No errors found
+* Browsers
+    * Tested on Google Chrome, Internet Explorer, Microsoft Edge and even the Samsung Internet App on Mobile and Tablet
+    * Tested using Google Chrome Development tools for different screen sizes
+    * Also opened on Honor 8X and Samsung Galaxy Tab S2
+
 
 ## Deployment
 
@@ -108,7 +120,7 @@ The link to the live site can be found [here](https://jordanch05.github.io/Histo
 ### Content
 
 * The text for the Home page was taken from the [Isambard Kingdom Brunel Wikipedia Article](https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel)
-* The text for the timeline was taken from the 'Is' by Derek Webb promotional website: IKBrunel.org.uk
+* The text for the timeline was taken from the website IKBrunel.org.uk
 * The social media icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 * The use of justify-content and flex display css code came from [this video](https://www.youtube.com/watch?v=b3xhm_2esTM) 
 
