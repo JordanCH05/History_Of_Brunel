@@ -4,8 +4,7 @@ This website has been created in order to provide historical facts and informati
 
 The live site can be viewed [here](https://jordanch05.github.io/History_Of_Brunel/index.html)
 
-![Responsive Mockup](assets/images/responsive.png)
-![Responsive Mockup bottom of page](assets/images/responsive2.png)
+![Responsive Mockup of site](assets/images/mockup.png)
 
 ## Planning
 
@@ -142,12 +141,8 @@ The link to the live site can be found [here](https://jordanch05.github.io/Histo
 * The images were taken from IKBrunel.org.uk as well as [Wikimedia](https://commons.wikimedia.org/w/index.php?search=brunel&title=Special:MediaSearch&go=Go&type=image)
 * The Youtube videos are from the channel [BBC Teach](https://www.youtube.com/channel/UC4KN50fal7f45fx2DqG7ttg)
 
-# 
+### Other
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-python3 -m http.server
-
-A blue button should appear to click: Make Public,
-
-Another blue button should appear to click: Open Browser.
+* [W3Schools](https://www.w3schools.com/) was used for reference
+* The [Code Institute](https://codeinstitute.net/) study material was heavily used
+* Support from the [Slack](https://slack.com/intl/en-gb/) community did also help for solving an issue
