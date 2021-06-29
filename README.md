@@ -94,17 +94,28 @@ The live site can be viewed [here](https://jordanch05.github.io/History_Of_Brune
 
 ## Testing
 
-* HTML
-    * Tested using the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjordanch05.github.io%2FHistory_Of_Brunel%2Findex.html)
-    * Frameborder attribute error found in the iframe elements, it is now obsolete and was removed
-* CSS
-    * Tested using the official [Jigsaw W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjordanch05.github.io%2FHistory_Of_Brunel%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-    * No errors found
-* Browsers
-    * Tested on Google Chrome, Internet Explorer, Microsoft Edge and even the Samsung Internet App on Mobile and Tablet
-    * Tested using Google Chrome Development tools for different screen sizes
-    * Also opened on Honor 8X and Samsung Galaxy Tab S2
+### HTML
 
+* Tested using the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjordanch05.github.io%2FHistory_Of_Brunel%2Findex.html)
+* Frameborder attribute error found in the iframe elements, it is now obsolete and was removed
+
+### CSS
+
+* Tested using the official [Jigsaw W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjordanch05.github.io%2FHistory_Of_Brunel%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* No errors found
+
+### Browsers
+
+* Tested on Google Chrome, Internet Explorer, Microsoft Edge and even the Samsung Internet App on Mobile and Tablet
+* Tested using Google Chrome Development tools for different screen sizes
+* Also opened on Honor 8X and Samsung Galaxy Tab S2
+
+### Accessibility
+
+* Tested using a web accessibility evaluation tool called [Wave](https://wave.webaim.org/)
+* Aria-labels were added to the social media links in the footer and alt text was added for all images
+* Semantic HTML is used to structure the website
+* Form labels are used for the signup page
 
 ## Deployment
 
