@@ -1,15 +1,36 @@
 # History of Brunel
 
-This website has been created in order to provide information on the life and impact of Isambard Kingdom Brunel for those studying history or engineering or simply interested in British historical figures. It provides facts about Brunel's acheivements and legacy as well as a timeline of his life 1806-1859.
+This website has been created in order to provide historical facts and information about the life and impact of Isambard Kingdom Brunel for those studying history or engineering or simply interested in British historical figures. It provides facts about Brunel's achievements and legacy as well as a timeline of his life 1806-1859.
+
+The live site can be viewed [here](https://jordanch05.github.io/History_Of_Brunel/index.html)
 
 ![Responsive Mockup](assets/images/responsive.png)
 ![Responsive Mockup bottom of page](assets/images/responsive2.png)
+
+## Planning
+
+* Colour Scheme
+
+    * Simple colour scheme chosen 
+    * Contrasting dark font colours used on light background and vice versa
+    * Matching header and footer colours
+
+
+![Colour Scheme](assets/images/colours-scheme.png)
+
+* Font
+    * Fonts taken from [Google Fonts](https://fonts.google.com/)
+    * Mate SC is used for the headings to give a more 19th Century atmosphere
+    * Roboto is used for smaller texts for easier legibility since it is simplier and with serifs
+
+* Figma
 
 ## Features
 * Navigation Bar
     * Featured in the header of all pages
     * Includes Top Hat logo inspired by Brunel's Hat which also works as a link to the Home page
-    * Takes the user to the Home, Timeline and Signup pages
+    * The logo uses the same colour scheme as the rest of the site to remain consistent
+    * Easily takes the user to the Home, Timeline and Signup pages
 
 ![Header of site](assets/images/header.png)
 
@@ -54,8 +75,11 @@ This website has been created in order to provide information on the life and im
 * Signup 
     * Allows the user to signup to a mailing list where they can be given direct updates about the website and Brunel related media
     * Especially helpful to users who do not use social media
+    * It leads to a thank you message after clikcing the submit button for a positive user experience
 
 ![Signup Page](assets/images/signup.png)
+
+![Thank you messasge](assets/images/thankyou.png)
 
 ## Features Left to Implement
 
