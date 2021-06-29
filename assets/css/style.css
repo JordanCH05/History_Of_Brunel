@@ -350,6 +350,23 @@ button {
     width: 164px;
 }
 
+/* Thank you page */
+
+#thank-you {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    width: 765px;
+    height: auto;
+    position: relative;
+    top: 40%;
+    margin: 0 auto;
+    padding: 10px 20px 10px;
+    font-size: 24px;
+    font-family: 'Mate SC', serif;
+    border-radius: 17px;
+    text-align: center;
+}
+
 @media screen and (max-width: 1480px) {
     
     /* Info and image of Brunel */ 
@@ -506,6 +523,11 @@ button {
         margin: 0 auto;
     }
 
+    /* Thank you page */
+
+    #thank-you {
+        width: 490px;
+    }
     
 }
 
@@ -621,6 +643,13 @@ button {
     #signup_box input {
         width: 250px;  
         height: 33px;
+    }
+
+    /* Thank you page */
+
+    #thank-you {
+        width: 300px;
+        font-size: 16px;
     }
 
 }
