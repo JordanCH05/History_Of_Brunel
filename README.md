@@ -57,6 +57,10 @@ This website has been created in order to provide information on the life and im
 
 ![Signup Page](assets/images/signup.PNG)
 
+## Features Left to Implement
+
+* Hamburger dropdown menu for smaller screens
+
 ## Validator Testing
 
 * HTML
@@ -68,7 +72,12 @@ This website has been created in order to provide information on the life and im
 
 ## Deployment
 
-* This site was deployed to GitHub pages
+* This site was deployed to GitHub pages. The steps to deploy are as follows:
+    * In the GitHub repository, navigate to the Settings tab
+    * From the source section drop-down menu, select the Master Branch
+    * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The link to the live site can be found [here](https://jordanch05.github.io/History_Of_Brunel/index.html)
 
 ## Credits
 
