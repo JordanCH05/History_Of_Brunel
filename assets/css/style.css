@@ -171,7 +171,7 @@ iframe {
     border-radius: 17px;
 }
 
-.info_img_info {
+.info-img-info {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -245,24 +245,24 @@ iframe {
 
 /* Timeline */
 
-.img_year_info {
+.img-year-info {
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
-.timeline_box {
+.timeline-box {
     width: 30%;
     text-align: center;
 }
 
-.timeline_year {
+.timeline-year {
     width: 20%;
     text-align: center;
 }
 
-.time-info {
+.timeline-info {
     letter-spacing: 2px;
     background-color: #c4c4c4;
     width: 402px;
@@ -273,7 +273,7 @@ iframe {
     
 }
 
-.time-text {
+.timeline-text {
     width: 402px;
     height: 153px;
     display: table-cell;
@@ -281,7 +281,7 @@ iframe {
     font-size: 20px;
 }
 
-.time-image {
+.timeline-image {
     width: 450px;
     height: 210px;
     margin: 78.5px auto;
@@ -306,14 +306,14 @@ iframe {
 
 /* Signup */
 
-#signup_background {
+#signup-background {
     background: url('../images/thamestunnel.jpg') no-repeat center center;
     height: 90vh;
     width: 100%;
     background-size: cover;
 }
 
-#signup_box {
+#signup-box {
     background-color: rgba(0, 0, 0, .5);
     width: auto;
     height: auto;
@@ -327,11 +327,11 @@ iframe {
     border-radius: 17px;
 }
 
-#signup_box h2 {
+#signup-box h2 {
     font-size: 36px;
 }
 
-#signup_box input {
+#signup-box input {
     width: 300px;
     height: 40px;
     margin-top: 10px;
@@ -377,11 +377,11 @@ button {
     
     /*Timeline*/
 
-    .timeline_box {
+    .timeline-box {
         width: 45%;
     }
 
-    .timeline_year {
+    .timeline-year {
         width: 10%;
     }
 
@@ -455,7 +455,7 @@ button {
 
     /* Info and image of Brunel */
 
-    .info_img_info {
+    .info-img-info {
         display: grid;
     }
 
@@ -483,25 +483,25 @@ button {
 
     /* Timeline */
 
-    .img_year_info {
+    .img-year-info {
         margin: 40px auto;
         display: grid;
     }
 
-    .timeline_box {
+    .timeline-box {
         width: 100%;
     }
 
-    .timeline_year {
+    .timeline-year {
         width: 100%;
     }
 
-    .time-info {
+    .timeline-info {
         padding: 32px 24px 25px;
         margin: 29px auto;
     }
 
-    .time-image {
+    .timeline-image {
         margin: 25px auto;
     }
 
@@ -511,7 +511,7 @@ button {
 
     /* Signup */   
 
-    #signup_box {
+    #signup-box {
         width: 500px;
         position: relative;
         top: 15%;
@@ -618,21 +618,21 @@ button {
 
     /* Signup */
 
-    #signup_background {
+    #signup-background {
         height: 80vh;
     }
 
-    #signup_box {
+    #signup-box {
         width: 300px;
         font-size: 18px;
         padding: 15px 10px 5px;
     }
 
-    #signup_box h2 {
+    #signup-box h2 {
         font-size: 25px;
     }
 
-    #signup_box input {
+    #signup-box input {
         width: 250px;  
         height: 33px;
     }

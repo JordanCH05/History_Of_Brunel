@@ -26,8 +26,8 @@ This website has been created in order to provide information on the life and im
 
 * Videos Section
     * Includes two embedded Youtube videos
-    * The first video has a simple explanation of Brunel's acheivements from BBC Teach in order to give the user a basic idea of who Brunel was
-    * The second video is a more comedic video featuring a list of stories from Brunel's life from Jack Rackam to show the user a more condensed timeline of Brunel's life and display his amazing engineering feats and ambition 
+    * The first video has a simple explanation of some of Brunel's achievements from BBC Teach in order to give the user a basic idea of who Brunel was
+    * The second video is a more detailed video about Brunel creating the Great Western Railway and Box Tunnel, also from BBC Teach, in order to give the user a better idea of the significance of this achievment
 
 ![Embedded Youtube Videos](assets/images/embedded-videos.png)
 
@@ -86,13 +86,14 @@ The link to the live site can be found [here](https://jordanch05.github.io/Histo
 * The text for the Home page was taken from the [Isambard Kingdom Brunel Wikipedia Article](https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel)
 * The text for the timeline was taken from the 'Is' by Derek Webb promotional website: IKBrunel.org.uk
 * The social media icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-* The use of justify-content and flex display came from [this video](https://www.youtube.com/watch?v=b3xhm_2esTM) 
+* The use of justify-content and flex display css code came from [this video](https://www.youtube.com/watch?v=b3xhm_2esTM) 
 
 ### Media
 
 * The logo was made using [Canva](canva.com)
 * The photos were taken from [Unsplash](https://unsplash.com/s/photos/brunel)
 * The images were taken from IKBrunel.org.uk as well as [Wikimedia](https://commons.wikimedia.org/w/index.php?search=brunel&title=Special:MediaSearch&go=Go&type=image)
+* The Youtube videos are from the channel [BBC Teach](https://www.youtube.com/channel/UC4KN50fal7f45fx2DqG7ttg)
 
 # 
 
